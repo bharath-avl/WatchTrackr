@@ -1,0 +1,17 @@
+{
+  "name": "watchtrackr",
+  "version": "1.0.0",
+  "description": "WatchTrackr - Track your watch progress",
+  "scripts": {
+    "install:frontend": "cd watchtrackr-frontend && npm install",
+    "install:backend": "cd watchtrackr-backend && npm install",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "frontend": "cd watchtrackr-frontend && npm start",
+    "backend": "cd watchtrackr-backend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
