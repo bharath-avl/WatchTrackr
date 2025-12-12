@@ -49,8 +49,10 @@ WatchTrackr/
 │   └── server.js
 └── package.json              # Root package
 ```
+## Please Note that the Live Link is not working due to MongoDB free tier restrictions. You can refer to the screenshots attached with the project .
 
 ## 🚀 Getting Started
+
 
 ### Prerequisites
 
